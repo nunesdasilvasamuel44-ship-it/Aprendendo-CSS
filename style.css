@@ -1,11 +1,35 @@
-body{
-background-color: rgb(148, 0, 0);
-    color: rgba(255, 230, 0, 0.993);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,;
-   text-align: center; 
-   margin: 500px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
+* {
+    background-color: cadetblue;
 
-} 
+
+
+
+}
+
+
+
+
+
+h1 {
+
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    margin: auto;
+    padding: 50px;
+    border: 40px crimson;
+    border-style: groove;
+
+    border-radius: 400px 700px;
+    text-align: center;
+    width: 300px;
+}
+
+#Conteudo {
+
+    background-color: chartreuse;
+
+    width: 70%;
+    margin: auto;
+
+
+}
