@@ -1,35 +1,71 @@
 * {
-    background-color: cadetblue;
-
-
-
+    background-color: rgb(255, 255, 255);
 
 }
 
 
-
-
-
 h1 {
-
-    background-color: aqua;
-    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: auto;
     padding: 50px;
-    border: 40px crimson;
+    border: 40px rgb(0, 0, 0);
     border-style: groove;
 
     border-radius: 400px 700px;
     text-align: center;
     width: 300px;
+
 }
 
 #Conteudo {
-
-    background-color: chartreuse;
-
+    background-color: rgba(255, 238, 0, 0.712);
     width: 70%;
     margin: auto;
 
+}
 
+#area-login {
+    background-color: rgb(235, 235, 235);
+    width: 300px;
+    display: flex;
+    padding: 50px;
+    border-style: solid;
+    border-radius: 90px;
+
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+
+}
+
+button {
+
+    margin-top: 30px;
+    background-color: rgb(255, 0, 51);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+input {
+    border-radius: 15px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+input[type="email"] {
+    background-color: rgb(156, 156, 231);
+}
+
+input[type="text"] {
+    background-color: rgb(149, 149, 240);
+}
+
+button:hover {
+    background-color: blue;
+    color: black;
+    border: solid 2px black
 }
